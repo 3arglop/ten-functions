@@ -30,3 +30,32 @@ function isTrue(input) {
 function isFalse(value) {
     return value === false;
 }
+
+//THREE
+function not(input) {
+    if (typeof input !== typeof input && typeof input !== true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//FOUR
+function addOne(input) {
+    if (input === Infinity) {
+        return Infinity;
+    } else if (typeof input === "number") {
+        return input + 1;
+    } else {
+        return false;
+    }
+}
+
+//FIVE
+function isEven(input) {
+    if(input % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
