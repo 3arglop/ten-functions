@@ -21,7 +21,12 @@
  * concat
  */
 
-//UNO
+//ONE
 function isTrue(input) {
     return input === true;
+}
+
+//TWO
+function isFalse(value) {
+    return value === false;
 }
