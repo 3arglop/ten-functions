@@ -21,3 +21,7 @@
  * concat
  */
 
+//UNO
+function isTrue(input) {
+    return input === true;
+}
