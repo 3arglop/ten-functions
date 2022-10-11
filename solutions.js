@@ -64,3 +64,9 @@ function isEven(input) {
 function isIdentical(x, y) {
     return typeof x === typeof y;
 }
+
+//SEVEN
+function isEqual(one, two) {
+    return one == two;
+}
+
