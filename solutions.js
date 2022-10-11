@@ -59,3 +59,8 @@ function isEven(input) {
         return false;
     }
 }
+
+//SIX
+function isIdentical(x, y) {
+    return typeof x === typeof y;
+}
