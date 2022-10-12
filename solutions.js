@@ -43,11 +43,7 @@ function addOne(input) {
 
 //FIVE
 function isEven(input) {
-    if(parseInt(input) % 2 == 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return parseInt(input) % 2 == 0;
 }
 
 //SIX
