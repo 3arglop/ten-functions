@@ -33,27 +33,17 @@ function isFalse(value) {
 
 //THREE
 function not(input) {
-    if (typeof input !== typeof input && typeof input !== true) {
-        return true;
-    } else {
-        return false;
-    }
+    return !input;
 }
 
 //FOUR
 function addOne(input) {
-    if (input === Infinity) {
-        return Infinity;
-    } else if (typeof input === "number") {
-        return input + 1;
-    } else {
-        return false;
-    }
+    return Number(input) + 1;
 }
 
 //FIVE
 function isEven(input) {
-    if(input % 2 == 0) {
+    if(parseInt(input) % 2 == 0) {
         return true;
     } else {
         return false;
