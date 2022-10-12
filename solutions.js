@@ -70,3 +70,12 @@ function isEqual(one, two) {
     return one == two;
 }
 
+//EIGHTH
+function or(arg1, arg2) {
+    return arg1 || arg2;
+}
+
+//NINE
+function and(a, b) {
+
+}
