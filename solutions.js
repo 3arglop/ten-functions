@@ -77,5 +77,10 @@ function or(arg1, arg2) {
 
 //NINE
 function and(a, b) {
+     return a && b;
+}
 
+//TEN
+function concat(uno, dos) {
+   return uno.toString() + dos.toString();
 }
